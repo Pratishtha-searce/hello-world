@@ -16,7 +16,7 @@ spec:
         app: python
     spec:
       containers:
-      - image: gcr.io/searce-playground/python-docker:v1
+      - image: gcr.io/searce-playground/python-docker
         name: hello-searce
         ports:
         - containerPort: 5000
